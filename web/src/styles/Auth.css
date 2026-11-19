@@ -1,0 +1,125 @@
+.AuthPage {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #100d18;
+    color: #eeeaf5;
+    padding: 24px;
+}
+
+.AuthCard {
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 36px;
+    border: 1px solid #342747;
+    border-radius: 14px;
+    background: #1b1626;
+    box-shadow: 0 12px 40px #0005;
+}
+
+.AuthCard h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.AuthCard p {
+    color: #aaa0ba;
+    line-height: 1.5;
+    margin: 0 0 12px;
+}
+
+.AuthCard label {
+    font-size: 14px;
+    color: #c9bfd8;
+}
+
+.AuthCard input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #443456;
+    border-radius: 7px;
+    background: #120f19;
+    color: white;
+    outline: none;
+}
+
+.AuthCard input:focus {
+    border-color: #a56aff;
+    box-shadow: 0 0 0 2px #a56aff33;
+}
+
+.AuthCard button {
+    padding: 12px;
+    border: none;
+    border-radius: 7px;
+    background: #8548cf;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.AuthCard button:hover {
+    background: #995de2;
+}
+
+.AuthCard button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.AuthCard .AuthSecondaryButton {
+    background: transparent;
+    border: 1px solid #443456;
+    color: #c9bfd8;
+}
+
+.AuthCard .AuthSecondaryButton:hover {
+    background: #2b2238;
+}
+
+.AuthError {
+    padding: 10px;
+    border-radius: 6px;
+    background: #4a202b;
+    color: #ffb5c0;
+    font-size: 14px;
+}
+
+.MfaQrCode {
+    width: 220px;
+    height: 220px;
+    align-self: center;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+}
+
+.RecoveryCodes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 14px;
+    background: #120f19;
+    border-radius: 8px;
+}
+
+.RecoveryCodes code {
+    color: #d9baff;
+    overflow-wrap: anywhere;
+    font-size: 12px;
+}
+
+.AuthLoading {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #100d18;
+    color: #eeeaf5;
+}

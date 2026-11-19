@@ -1,0 +1,80 @@
+
+.Dashboard {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.DashboardHeader {
+    margin-bottom: 36px;
+}
+
+.DashboardHeader h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 650;
+    letter-spacing: -0.8px;
+}
+
+.DashboardHeader p {
+    color: var(--text-muted);
+    margin-top: 8px;
+}
+
+.DashboardSection {
+    margin-bottom: 36px;
+}
+
+.DashboardSection h2 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.DashboardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.DashboardCard {
+    padding: 22px;
+
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+
+    transition: border-color 150ms ease;
+}
+
+.DashboardCard:hover {
+    border-color: #594477;
+}
+
+.DashboardCard h3 {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-muted);
+    margin: 0 0 14px 0;
+}
+
+.DashboardCard p,
+.DashboardCard span {
+    font-size: 21px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.CardDescription {
+    font-size: 12px !important;
+    color: var(--text-muted);
+    margin-top: 10px !important;
+}
+
+.StatusOnline {
+    color: var(--success);
+}
+
+.StatusOffline {
+    color: var(--danger);
+}

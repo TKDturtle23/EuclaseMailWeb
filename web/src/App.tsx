@@ -15,9 +15,10 @@ import Login from './pages/Login'
 import Mfa from './pages/Mfa'
 import MfaSetup from './pages/MfaSetup'
 import Dashboard from './pages/Dashboard'
-
+import Admin from './pages/Admin'
+import AdminRoute from './components/AdminRoute'
 import './styles/global.css'
-
+import { NavLink } from 'react-router-dom'
 function SetupRoute() {
     const { user, loading } = useAuth()
 
@@ -73,6 +74,10 @@ function AppRoutes() {
                     <Route path="/dash" element={<Dashboard />} />
                     <Route path="/inbox" element={<div>Inbox</div>} />
                     <Route path="/settings" element={<div>Settings</div>} />
+
+                    <Route element={<AdminRoute />}>
+                        <Route path="/admin" element={<Admin />} />
+                    </Route>
                 </Route>
             </Route>
 

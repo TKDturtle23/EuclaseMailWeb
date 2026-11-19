@@ -1,0 +1,202 @@
+.AdminPage {
+    padding: 32px;
+    color: #eeeaf8;
+}
+
+.AdminHeader,
+.AdminSectionHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.AdminHeader {
+    margin-bottom: 32px;
+}
+
+.AdminHeader h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.AdminHeader p,
+.AdminDescription {
+    color: #a69bbd;
+    margin-top: 8px;
+}
+
+.AdminSection {
+    background: #1c1728;
+    border: 1px solid #352b49;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.AdminSection h2 {
+    margin: 0;
+    font-size: 19px;
+}
+
+.AdminCreateForm {
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.AdminCreateForm label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+    min-width: 180px;
+    color: #c9bfdc;
+    font-size: 14px;
+}
+
+.AdminCreateForm input,
+.AdminActions select {
+    background: #110e19;
+    color: #eeeaf8;
+    border: 1px solid #493b61;
+    border-radius: 7px;
+    padding: 10px 12px;
+    outline: none;
+}
+
+.AdminCreateForm input:focus,
+.AdminActions select:focus {
+    border-color: #a879ed;
+}
+
+.AdminPage button {
+    border: none;
+    border-radius: 7px;
+    padding: 10px 14px;
+    color: white;
+    background: #7542b5;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.AdminPage button:hover {
+    background: #8954cb;
+}
+
+.AdminPage button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.AdminPage .AdminSecondary {
+    background: #403452;
+}
+
+.AdminPage .AdminSecondary:hover {
+    background: #59466f;
+}
+
+.AdminPage .AdminDanger {
+    background: #8e354f;
+}
+
+.AdminPage .AdminDanger:hover {
+    background: #aa405e;
+}
+
+.AdminRefresh {
+    background: #403452 !important;
+}
+
+.AdminNotice {
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.AdminError {
+    background: #492331;
+    border: 1px solid #873c56;
+    color: #ffb9ca;
+}
+
+.AdminSuccess {
+    background: #253b35;
+    border: 1px solid #376b57;
+    color: #a8e5c7;
+}
+
+.AdminTableWrapper {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.AdminTable {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.AdminTable th,
+.AdminTable td {
+    padding: 14px 12px;
+    border-bottom: 1px solid #352b49;
+}
+
+.AdminTable th {
+    color: #a99cbd;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.AdminTable td {
+    font-size: 14px;
+}
+
+.AdminRole {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.AdminRole-admin {
+    background: #49305f;
+    color: #d9b8ff;
+}
+
+.AdminRole-user {
+    background: #303044;
+    color: #c2c2dc;
+}
+
+.AdminActions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.AdminActions select {
+    padding: 8px;
+}
+
+@media (max-width: 700px) {
+    .AdminPage {
+        padding: 18px;
+    }
+
+    .AdminSection {
+        padding: 16px;
+    }
+
+    .AdminCreateForm {
+        align-items: stretch;
+        flex-direction: column;
+    }
+}

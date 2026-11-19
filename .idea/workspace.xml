@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9bd32b07-100f-4a23-9dd0-e99509d16b9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/web/src/styles/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.oxlintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/client.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MailExplorer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Users.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TKDturtle23&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TKDturtle23/EuclaseMailWeb.git&quot;,
+    &quot;accountId&quot;: &quot;afb2e6ce-e628-48df-a145-7f3dad954330&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000000857119681" />
+      <entry key="S2" value="1.0304270863398626" />
+      <entry key="S5" value="1.2473464582454465" />
+      <entry key="S10" value="1.4989554739854218" />
+      <entry key="S30" value="2.0360884473186553" />
+      <entry key="S60" value="2.7459472191701235" />
+      <entry key="M2" value="3.6618198428518958" />
+      <entry key="M5" value="8.040244679166694" />
+      <entry key="M10" value="17.49194495429978" />
+      <entry key="M15" value="24.33905572613331" />
+      <entry key="M30" value="34.83286573988952" />
+      <entry key="H1" value="42.04187230109035" />
+      <entry key="H2" value="46.277314522696884" />
+      <entry key="H4" value="48.574311620829825" />
+      <entry key="D1" value="50.58647359396628" />
+      <entry key="W1" value="50.94069425954399" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="7.684715479101201E-167" />
+      <entry key="S5" value="3.583035549421959E-67" />
+      <entry key="S10" value="5.985846263831007E-34" />
+      <entry key="S30" value="8.427689362685833E-12" />
+      <entry key="S60" value="2.9030482880389413E-6" />
+      <entry key="M2" value="0.0017038334097085146" />
+      <entry key="M5" value="0.07808558206325153" />
+      <entry key="M10" value="0.2794379753420274" />
+      <entry key="M15" value="0.42742207726857706" />
+      <entry key="M30" value="0.6537752498134024" />
+      <entry key="H1" value="0.8085636955821125" />
+      <entry key="H2" value="0.8992016990542845" />
+      <entry key="H4" value="0.9482624631684438" />
+      <entry key="D1" value="0.9911850886380992" />
+      <entry key="W1" value="0.9987359435179675" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="3.545441582066056E-29" />
+      <entry key="MS500" value="2.3037643901775204E-6" />
+      <entry key="S2" value="0.06043108900383575" />
+      <entry key="S5" value="0.4894998532820774" />
+      <entry key="S10" value="0.9896473516210603" />
+      <entry key="S30" value="1.8182219099732144" />
+      <entry key="S60" value="2.622695272857343" />
+      <entry key="M2" value="3.59463503539027" />
+      <entry key="M5" value="8.082613538067916" />
+      <entry key="M10" value="17.747025241382087" />
+      <entry key="M15" value="24.747425488221605" />
+      <entry key="M30" value="35.475085815118064" />
+      <entry key="H1" value="42.843991338705194" />
+      <entry key="H2" value="47.17310224082478" />
+      <entry key="H4" value="49.520815703329546" />
+      <entry key="D1" value="51.57735816775711" />
+      <entry key="W1" value="51.939387085661" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3MILTqPpa17QvzhC4Z6FH7SgwLN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/Loyal/.cache/JetBrains/WebStorm2026.3/ts-go-native-preview/v7.1.0-dev.jetbrains.20261006.2/node_modules/@typescript/typescript-linux-x64/lib&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-56aff7b04f6f-JavaScript-WS-263.7307.202" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bd32b07-100f-4a23-9dd0-e99509d16b9a" name="Changes" comment="" />
+      <created>1795033145743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1795033145743</updated>
+      <workItem from="1795033147094" duration="52000" />
+      <workItem from="1795053236267" duration="1997000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

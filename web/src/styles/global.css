@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.app {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.Sidebar {
+    border-right: 2px solid lightgray;
+    width: 250px;
+    min-width: 150px;
+    max-width: 500px;
+    box-sizing: border-box;
+
+    padding: 8px;
+}
+
+.ResizeHandle {
+    width: 5px;
+    cursor: col-resize;
+    background: transparent;
+    flex-shrink: 0;
+}
+
+.ResizeHandle:hover {
+    background: lightgray;
+}
+
+.MainContent {
+    flex: 1;
+    min-width: 0;
+}

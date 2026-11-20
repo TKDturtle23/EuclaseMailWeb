@@ -1,0 +1,253 @@
+.MailboxesPage {
+    padding: 32px;
+    color: #eeeaf8;
+}
+
+.MailboxesHeader,
+.MailboxSectionHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.MailboxesHeader {
+    margin-bottom: 32px;
+}
+
+.MailboxesHeader h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.MailboxesHeader p,
+.MailboxDescription {
+    color: #a69bbd;
+    margin-top: 8px;
+}
+
+.MailboxSection {
+    background: #1c1728;
+    border: 1px solid #352b49;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.MailboxSection h2 {
+    margin: 0;
+    font-size: 19px;
+}
+
+.MailboxCreateForm {
+    display: flex;
+    align-items: end;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.MailboxCreateForm label {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #c9bfdc;
+    font-size: 14px;
+}
+
+.MailboxAddressInput {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.MailboxAddressInput input,
+.MailboxAddressInput select {
+    min-width: 0;
+    background: #110e19;
+    color: #eeeaf8;
+    border: 1px solid #493b61;
+    border-radius: 7px;
+    padding: 11px 12px;
+    outline: none;
+}
+
+.MailboxAddressInput input {
+    flex: 1;
+}
+
+.MailboxAddressInput select {
+    flex: 1;
+}
+
+.MailboxAddressInput span {
+    color: #a69bbd;
+}
+
+.MailboxAddressInput input:focus,
+.MailboxAddressInput select:focus {
+    border-color: #a879ed;
+}
+
+.MailboxesPage button {
+    border: none;
+    border-radius: 7px;
+    padding: 11px 16px;
+    color: white;
+    background: #7542b5;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.MailboxesPage button:hover {
+    background: #8954cb;
+}
+
+.MailboxesPage button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.MailboxRefresh {
+    background: #403452 !important;
+}
+
+.MailboxNotice {
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.MailboxError {
+    background: #492331;
+    border: 1px solid #873c56;
+    color: #ffb9ca;
+}
+
+.MailboxSuccess {
+    background: #253b35;
+    border: 1px solid #376b57;
+    color: #a8e5c7;
+}
+
+.MailboxList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.MailboxItem {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 4px;
+    border-bottom: 1px solid #352b49;
+}
+
+.MailboxIcon {
+    display: grid;
+    place-items: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    background: #49305f;
+    color: #d9b8ff;
+    font-size: 22px;
+}
+
+.MailboxInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+.MailboxInfo span {
+    color: #a69bbd;
+    font-size: 12px;
+}
+
+.MailboxStatus {
+    color: #a8e5c7;
+    background: #253b35;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+@media (max-width: 700px) {
+    .MailboxesPage {
+        padding: 18px;
+    }
+
+    .MailboxSection {
+        padding: 16px;
+    }
+
+    .MailboxCreateForm {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .MailboxAddressInput {
+        flex-wrap: wrap;
+    }
+
+    .MailboxAddressInput input,
+    .MailboxAddressInput select {
+        flex: 1 1 100%;
+    }
+}
+
+
+.MailboxTextInput {
+    width: 100%;
+    box-sizing: border-box;
+    background: #110e19;
+    color: #eeeaf8;
+    border: 1px solid #493b61;
+    border-radius: 7px;
+    padding: 11px 12px;
+    outline: none;
+}
+
+.MailboxTextInput:focus {
+    border-color: #a879ed;
+}
+
+.MailboxUnverified {
+    background: #493a25;
+    color: #f2d39a;
+}
+
+.MailboxDelete {
+    background: #492331 !important;
+    color: #ffb9ca !important;
+}
+
+.MailboxDelete:hover {
+    background: #713348 !important;
+}
+
+.MailboxEmpty {
+    color: #a69bbd;
+    margin-top: 20px;
+}
+
+.MailboxAliasForm {
+    flex-wrap: wrap;
+}
+
+.MailboxAliasForm > label {
+    min-width: 200px;
+}
+
+.MailboxAliasForm > label:nth-child(2) {
+    flex: 1;
+}
+
+@media (max-width: 700px) {
+    .MailboxAliasForm > label {
+        min-width: 100%;
+    }
+}

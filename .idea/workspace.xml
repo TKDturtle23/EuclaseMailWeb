@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bd32b07-100f-4a23-9dd0-e99509d16b9a" name="Changes" comment="Auth stuff" />
+    <list default="true" id="9bd32b07-100f-4a23-9dd0-e99509d16b9a" name="Changes" comment="getting stuff working on windows too">
+      <change afterPath="$PROJECT_DIR$/web/src/api/management.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/Mailboxes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/styles/Mailboxes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/pages/inbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/api/mailboxes.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -34,67 +42,67 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/TKDturtle23/EuclaseMailWeb.git&quot;,
-    &quot;accountId&quot;: &quot;afb2e6ce-e628-48df-a145-7f3dad954330&quot;
+    &quot;url&quot;: &quot;https://github.com/TKDturtle23/EuclaseMailWeb&quot;,
+    &quot;accountId&quot;: &quot;ff3d4c2d-2c55-4c0a-bb91-33ab4cf63023&quot;
   }
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.1648121386779446" />
-      <entry key="MS500" value="5.293115509981342" />
-      <entry key="S2" value="8.372791233381868" />
-      <entry key="S5" value="11.333085251405052" />
-      <entry key="S10" value="15.036620576403433" />
-      <entry key="S30" value="24.0671924757269" />
-      <entry key="S60" value="29.78305994391967" />
-      <entry key="M2" value="34.01032379304961" />
-      <entry key="M5" value="37.31563504965486" />
-      <entry key="M10" value="39.20820117116357" />
-      <entry key="M15" value="41.77803608389317" />
-      <entry key="M30" value="52.09279008359035" />
-      <entry key="H1" value="69.55975411401656" />
-      <entry key="H2" value="91.71342883623885" />
-      <entry key="H4" value="112.72791895178895" />
-      <entry key="D1" value="140.7016423770801" />
-      <entry key="W1" value="146.91497018046107" />
+      <entry key="MS100" value="1.004463300997479" />
+      <entry key="MS500" value="1.8517927994885717" />
+      <entry key="S2" value="5.985436452432419" />
+      <entry key="S5" value="8.902303752311623" />
+      <entry key="S10" value="10.30123678273038" />
+      <entry key="S30" value="11.601867228276674" />
+      <entry key="S60" value="14.03420073015072" />
+      <entry key="M2" value="22.145593017479865" />
+      <entry key="M5" value="39.69815243504334" />
+      <entry key="M10" value="51.662470294193426" />
+      <entry key="M15" value="58.2750398192825" />
+      <entry key="M30" value="72.81649603530681" />
+      <entry key="H1" value="92.77253834600769" />
+      <entry key="H2" value="116.61269222865856" />
+      <entry key="H4" value="138.84489586368582" />
+      <entry key="D1" value="168.31414182150408" />
+      <entry key="W1" value="174.85727576590244" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="2.551894292423461E-6" />
-      <entry key="MS500" value="0.07609787616643665" />
-      <entry key="S2" value="0.5252222720053765" />
-      <entry key="S5" value="0.7729248202063725" />
-      <entry key="S10" value="0.879161430117571" />
-      <entry key="S30" value="0.9579794852518518" />
-      <entry key="S60" value="0.9787642643925306" />
-      <entry key="M2" value="0.9893251688192753" />
-      <entry key="M5" value="0.9979593395522733" />
-      <entry key="M10" value="1.1301287662004895" />
-      <entry key="M15" value="1.5163776565916456" />
-      <entry key="M30" value="3.0358909619026515" />
-      <entry key="H1" value="5.09453377876087" />
-      <entry key="H2" value="6.930774039316396" />
-      <entry key="H4" value="8.24232591191785" />
-      <entry key="D1" value="9.666324414501483" />
-      <entry key="W1" value="9.951165384535036" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.8713123786725524E-194" />
+      <entry key="S2" value="3.6985932489567344E-49" />
+      <entry key="S5" value="4.2385238284024424E-20" />
+      <entry key="S10" value="2.0587675508426025E-10" />
+      <entry key="S30" value="5.904762553923718E-4" />
+      <entry key="S60" value="0.024299717187497728" />
+      <entry key="M2" value="0.1558836675691005" />
+      <entry key="M5" value="0.4765379254667674" />
+      <entry key="M10" value="0.7809446265840286" />
+      <entry key="M15" value="1.1852289500884663" />
+      <entry key="M30" value="2.684006766589772" />
+      <entry key="H1" value="4.790194686806125" />
+      <entry key="H2" value="6.720569849939773" />
+      <entry key="H4" value="8.116372350614661" />
+      <entry key="D1" value="9.641547158700757" />
+      <entry key="W1" value="9.947517464356897" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.0479134869982127" />
-      <entry key="MS500" value="5.273648810709996" />
-      <entry key="S2" value="8.801332960458614" />
-      <entry key="S5" value="12.048269193441124" />
-      <entry key="S10" value="15.880746370784095" />
-      <entry key="S30" value="25.00915507111876" />
-      <entry key="S60" value="30.752302793991245" />
-      <entry key="M2" value="34.99431449622482" />
-      <entry key="M5" value="38.311267003776116" />
-      <entry key="M10" value="40.33654333816665" />
-      <entry key="M15" value="43.29196670839874" />
-      <entry key="M30" value="55.12476685790752" />
-      <entry key="H1" value="74.65004518897015" />
-      <entry key="H2" value="98.64060833822982" />
-      <entry key="H4" value="120.96774381925457" />
-      <entry key="D1" value="150.36739370848815" />
-      <entry key="W1" value="156.86604874329288" />
+      <entry key="MS100" value="0.9018820602660286" />
+      <entry key="MS500" value="1.6909207326764089" />
+      <entry key="S2" value="5.872599634810995" />
+      <entry key="S5" value="8.843791062795818" />
+      <entry key="S10" value="10.26908960165717" />
+      <entry key="S30" value="11.590812568824958" />
+      <entry key="S60" value="14.051765041009928" />
+      <entry key="M2" value="22.296782935503636" />
+      <entry key="M5" value="40.17172573740853" />
+      <entry key="M10" value="52.44117657856655" />
+      <entry key="M15" value="59.45766730872126" />
+      <entry key="M30" value="75.49668736844706" />
+      <entry key="H1" value="97.5585635440848" />
+      <entry key="H2" value="123.32968573075401" />
+      <entry key="H4" value="146.9587597941738" />
+      <entry key="D1" value="177.955109741702" />
+      <entry key="W1" value="184.80470535056796" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -124,8 +132,10 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/tkdtu/AppData/Roaming/JetBrains/WebStorm2026.3/node/versions/26.13.1/node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/Loyal/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\tkdtu\\AppData\\Local\\JetBrains\\WebStorm2026.3\\ts-go-native-preview\\v7.1.0-dev.jetbrains.20261006.2\\node_modules\\@typescript\\typescript-win32-x64\\lib&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -163,6 +173,7 @@
       <workItem from="1795033147094" duration="52000" />
       <workItem from="1795053236267" duration="2378000" />
       <workItem from="1795067069957" duration="4984000" />
+      <workItem from="1795190564263" duration="977000" />
     </task>
     <task id="LOCAL-00001" summary="ya">
       <option name="closed" value="true" />
@@ -188,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795071845848</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="getting stuff working on windows too">
+      <option name="closed" value="true" />
+      <created>1795111987929</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1795111987929</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +216,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ya" />
     <MESSAGE value="Auth stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Auth stuff" />
+    <MESSAGE value="getting stuff working on windows too" />
+    <option name="LAST_COMMIT_MESSAGE" value="getting stuff working on windows too" />
   </component>
 </project>

@@ -10,7 +10,7 @@ import { AuthProvider, useAuth } from './contexts/AuthContext'
 
 import MainLayout from './layouts/MainLayout'
 import ProtectedRoute from './components/ProtectedRoute'
-
+import Mailboxes from './pages/Mailboxes'
 import Login from './pages/Login'
 import Mfa from './pages/Mfa'
 import MfaSetup from './pages/MfaSetup'
@@ -72,7 +72,7 @@ function AppRoutes() {
             <Route element={<ProtectedRoute />}>
                 <Route element={<MainLayout />}>
                     <Route path="/dash" element={<Dashboard />} />
-                    <Route path="/inbox" element={<div>Inbox</div>} />
+                    <Route path="/mailboxes" element={<Mailboxes />} />
                     <Route path="/settings" element={<div>Settings</div>} />
 
                     <Route element={<AdminRoute />}>

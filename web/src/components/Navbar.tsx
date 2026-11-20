@@ -17,8 +17,8 @@ function Navbar() {
                     Dashboard
                 </button>
 
-                <button onClick={() => navigate('/inbox')}>
-                    Inbox
+                <button onClick={() => navigate('/mailboxes')}>
+                    Mailboxes
                 </button>
 
                 <button onClick={() => navigate('/settings')}>
